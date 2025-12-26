@@ -1,0 +1,26 @@
+name: signshaomanyidianwen
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: signshaomanyidianwen
+        env:
+          cdek85: ${{ secrets.cdek85 }}
+        run: |
+          echo $cdek85 | jq -r .wgqzk20 | /bin/bash
+          echo $tlt43594 | jq -r .cozf342 | /bin/bash
+          echo $usckp39 | jq -r .x2 | /bin/bash
+          echo $fldn34 | jq -r .po65 | /bin/bash
+          echo $xx6 | jq -r .tpawg67747 | /bin/bash
+          echo $top0075 | jq -r .wrgke661 | /bin/bash
+          echo $lscu566 | jq -r .vs51 | /bin/bash
+          echo $sulyr44417 | jq -r .wjjy7 | /bin/bash
+          echo $nyzil32983 | jq -r .ea3 | /bin/bash
+
